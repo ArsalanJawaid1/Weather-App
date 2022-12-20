@@ -1,0 +1,76 @@
+.container{
+  background-image: url("../src/Images/Weather\ Image.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  box-shadow: 2px 5px 10px rgb(61, 59, 59);
+  width: 33%;
+  min-height: 600px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+.heading{
+  display: flex;
+  position: relative;
+  top: 25px;
+  left: 115px;
+  font-size: 40px;
+}
+
+.heading:hover{
+  color: blueviolet;
+  transition: 0.7s;
+}
+.container input{
+  position: relative;
+  top: 30px;
+  left: 100px;
+  border-radius: 15px;
+  padding-right: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.container input:hover{
+  background-color: blueviolet;
+  transition: 0.7s;
+}
+.error{
+  color: whitesmoke;
+  position: relative;
+  left: 160px;
+  top: 80px;
+}
+.items{
+  position: relative;
+  top: 70px;
+  text-align: center;
+}
+.city-name{
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+}
+.city-name:hover{
+  color: blueviolet;
+  transition: 0.7s;
+}
+h3:hover{
+  color: blueviolet;
+  transition: 0.7s;
+}
+.temp{
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+}
+.Min{
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
